@@ -41,6 +41,7 @@ namespace PublicTest
             this.checkBox4 = new System.Windows.Forms.CheckBox();
             this.button7 = new System.Windows.Forms.Button();
             this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -155,11 +156,21 @@ namespace PublicTest
             this.button8.Text = "룰 적용";
             this.button8.UseVisualStyleBackColor = true;
             // 
+            // button9
+            // 
+            this.button9.Location = new System.Drawing.Point(145, 303);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(104, 41);
+            this.button9.TabIndex = 11;
+            this.button9.Text = "룰2 적용";
+            this.button9.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.checkBox4);
             this.Controls.Add(this.checkBox3);
@@ -193,6 +204,7 @@ namespace PublicTest
         private System.Windows.Forms.CheckBox checkBox4;
         private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
     }
 }
 
